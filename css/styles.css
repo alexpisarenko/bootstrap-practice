@@ -9,6 +9,8 @@ h1 {
     line-height: 1.5;
 }
 
+/* Sections */
+
 #title {
     background-color: #ff4c68;
     color: #FFF;
@@ -51,4 +53,38 @@ h1 {
 
 .download-button {
     margin: 5% 3% 5% 0;
+}
+
+/* Features */
+
+.features-container {
+    margin: 50px 0;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature__header {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.feature__body {
+    font-size: 1rem;
+    color: #8f8f8f;
+}
+
+.feature__icon {
+    color: orange;
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+/* .feature__icon:hover {
+    color: #ff4c68;
+} */
+
+.feature:hover .feature__icon {
+    color: #ff4c68;
 }
