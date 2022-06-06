@@ -58,7 +58,8 @@ h1 {
 /* Features */
 
 .features-container {
-    margin: 50px 0;
+    /* margin: 50px 0; */
+    padding: 7% 15%;
 }
 
 .feature {
@@ -81,10 +82,42 @@ h1 {
     margin: 1rem 0;
 }
 
-/* .feature__icon:hover {
-    color: #ff4c68;
-} */
-
 .feature:hover .feature__icon {
-    color: #ff4c68;
+    color: #ef8172;
+}
+
+/* Testimonials section */
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonials-container {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonials-container_header {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonials-container_image {
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+
+.press-container {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-container_images {
+    width: 15%;
+    margin: 20px 20px 50px;
 }
