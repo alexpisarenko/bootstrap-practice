@@ -121,3 +121,14 @@ h1 {
     width: 15%;
     margin: 20px 20px 50px;
 }
+
+/* Card Deck */
+
+.card-container {
+    padding: 100px;
+    text-align: center;
+}
+
+.card-container__card {
+    padding: 3% 2%;
+}
