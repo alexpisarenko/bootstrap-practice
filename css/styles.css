@@ -98,14 +98,14 @@ h1 {
     color: #fff;
 }
 
-.testimonials-container_header {
+.testimonials-container__header {
     font-family: "Montserrat";
     font-weight: 900;
     font-size: 3rem;
     line-height: 1.5;
 }
 
-.testimonials-container_image {
+.testimonials-container__image {
     border-radius: 100%;
     margin: 20px;
     width: 10%;
@@ -117,7 +117,7 @@ h1 {
     text-align: center;
 }
 
-.press-container_images {
+.press-container__images {
     width: 15%;
     margin: 20px 20px 50px;
 }
